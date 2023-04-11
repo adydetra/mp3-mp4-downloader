@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Head>
-        <title>Youtube Music | Video Downloader</title>
+        <title>Music | Video Downloader</title>
       </Head>
       <section className="bg-slate-900">
         <div className='container mx-auto min-h-screen flex items-center px-4 lg:w-5/12'>
