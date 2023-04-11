@@ -5,7 +5,7 @@
   "display" : "standalone",
   "scope" : "/",
   "start_url" : "/",
-  "name" : "Music | Video Downloader by Dev Dewa",
+  "name" : "MP3/MP4 Downloader | Dev Dewa",
   "short_name" : "Music | Video Downloader",
   "icons": [
     {
