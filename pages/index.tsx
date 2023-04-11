@@ -34,9 +34,9 @@ export default function Home() {
         </div>
       </section>
       {link && (
-      <section className='' id='focus'>
+      <section className='mt-28' id='focus'>
         <iframe 
-          className='w-full py-28 h-full flex items-center border-none min-h-screen'
+          className='w-full h-full flex items-center border-none min-h-screen'
           id='widgetApi'
           src={`https://convert2mp3s.com/api/widgetv2?url=${currentLink}`}
           scrolling="no"
