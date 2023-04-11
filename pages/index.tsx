@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default function Home() {
 
   const [link, setLink] = useState('');
-  const [currentLink, setCurrentLink] = useState(false);
+  const [currentLink, setCurrentLink] = useState('');
 
   function handleChangeText(any: any) {
     setLink(any.target.value);
