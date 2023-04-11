@@ -5,8 +5,8 @@
   "display" : "standalone",
   "scope" : "/",
   "start_url" : "/",
-  "name" : "Music | Video Downloader",
-  "short_name" : "Music | Video Downloader by Dev Dewa",
+  "name" : "Music | Video Downloader by Dev Dewa",
+  "short_name" : "Music | Video Downloader",
   "icons": [
     {
       "src": "pwa/16x16.png",
