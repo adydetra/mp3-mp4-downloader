@@ -36,6 +36,7 @@ export default function Home() {
           className='w-full py-28 h-full flex items-center border-none min-h-screen'
           id='widgetApi'
           src={`https://convert2mp3s.com/api/widgetv2?url=${currentLink}`}
+          scrolling="no"
           allowTransparency={true}
         >
         </iframe>
