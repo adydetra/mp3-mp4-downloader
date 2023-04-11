@@ -7,8 +7,8 @@ export default function Home() {
   const [link, setLink] = useState(false);
   const [currentLink, setCurrentLink] = useState("");
 
-  function handleChangeText(e) {
-    setLink(e.target.value);
+  function handleChangeText(any) {
+    setLink(any.target.value);
   }
   
   function handleSubmit() {
