@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import Image from 'next/image'
+
+import vercel from '../public/youtube.svg'
 
 export default function Home() {
 
@@ -42,6 +45,16 @@ export default function Home() {
         </iframe>
       </section>
        )}
+      <section className='py-12 lg:py-28'>
+        <h2 className='text-lg lg:text-4xl text-center font-bold'>Supports</h2>
+        <div className="container mx-auto py-4 lg:py-12 flex justify-center">
+          <Image
+            alt="Vercel logo"
+            src={vercel}
+            className="w-12 h-12 lg:w-28 lg:h-28"
+          />
+        </div>
+      </section>
     </main>
   )
 }
