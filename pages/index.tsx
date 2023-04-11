@@ -7,7 +7,7 @@ export default function Home() {
   const [link, setLink] = useState(false);
   const [currentLink, setCurrentLink] = useState("");
 
-  function handleChangeText(any) {
+  function handleChangeText(any: any) {
     setLink(any.target.value);
   }
   
