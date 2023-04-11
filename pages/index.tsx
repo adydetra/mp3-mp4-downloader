@@ -21,6 +21,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <title>Music | Video Downloader</title>
       </Head>
       <section className="bg-slate-900">
