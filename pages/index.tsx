@@ -26,11 +26,15 @@ export default function Home() {
       </Head>
       <section className="bg-slate-900">
         <div className='container mx-auto min-h-screen flex items-center px-4 lg:w-5/12'>
-          <div className='flex mb-12 w-full'>
-            <input className='w-full px-3 rounded-l-lg focus:outline-none' type="text" placeholder="Paste URL..." onChange={handleChangeText}/>
-            <Link href='#widgetApi'>
-              <button className='py-3 px-8 text-slate-700 hover:text-slate-900 bg-amber-300 hover:bg-amber-200' onClick={handleSubmit}>Submit</button>
-            </Link>
+          <div className='flex-row text-center space-y-8 lg:space-y-16 mb-12 w-full'>
+            <h1 className='text-white text-xl lg:text-3xl font-semibold'><text className='text-red-400'>Youtube</text> Downloader</h1>
+            <div className='flex'>
+              <input className='w-full px-3 rounded-l-lg focus:outline-none' type="text" placeholder="Paste URL..." onChange={handleChangeText}/>
+              <Link href='#widgetApi'>
+                <button className='py-3 px-8 text-slate-700 hover:text-slate-900 bg-amber-200 hover:bg-amber-300' onClick={handleSubmit}>Submit</button>
+              </Link>
+            </div>
+            <h4 className='text-slate-400 text-sm lg:text-xl'>MP3 / MP4 Supported</h4>
           </div>
         </div>
       </section>
