@@ -19,14 +19,14 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-slate-900">
       <Head>
         <link rel="manifest" href="/manifest.json" />
         <title>Music | Video Downloader</title>
       </Head>
-      <section className="bg-slate-900">
-        <div className='container mx-auto min-h-screen flex items-center px-4 lg:w-5/12'>
-          <div className='flex-row text-center space-y-8 lg:space-y-16 mb-12 w-full'>
+      <section className="mx-auto min-h-screen flex items-center px-4 lg:w-5/12">
+        <div className='container'>
+          <div className='flex-row text-center space-y-8 lg:space-y-16 w-full'>
             <h1 className='text-white text-xl lg:text-3xl font-semibold'><text className='text-red-400'>Youtube</text> Downloader</h1>
             <div className='flex'>
               <input className='w-full px-3 rounded-l-lg focus:outline-none' type="text" placeholder="Paste URL..." onChange={handleChangeText}/>
