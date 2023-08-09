@@ -23,6 +23,11 @@ export default function Home() {
       <Head>
         <link rel="manifest" href="/manifest.json" />
         <title>Music | Video Downloader</title>
+        <meta
+          name="description"
+          content="MP3 / MP4 Downloader, Support Youtube."
+          key="desc"
+        />
       </Head>
       <section className="mx-auto min-h-screen flex items-center px-4 lg:w-5/12">
         <div className='container'>
@@ -34,7 +39,7 @@ export default function Home() {
                 <button className='py-3 px-8 text-slate-700 hover:text-slate-900 bg-amber-200 hover:bg-amber-300' onClick={handleSubmit}>Submit</button>
               </Link>
             </div>
-            <h4 className='text-slate-400 text-sm lg:text-xl'>MP3 / MP4 Supported</h4>
+            <h1 className='text-slate-400 text-sm lg:text-xl'>MP3 / MP4 Supported</h1>
             <div className="w-12 h-12 mx-auto">
               <Image
                 alt="Vercel logo"
